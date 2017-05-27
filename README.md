@@ -1,4 +1,4 @@
-# atom-sync package
+# atom-sync package for cygwin
 
 atom-sync is an Atom package to sync files bidirectionally between remote host and local over ssh+rsync. Inspired by [Sublime SFTP](http://wbond.net/sublime_packages/sftp).
 
@@ -30,12 +30,19 @@ atom-sync is an Atom package to sync files bidirectionally between remote host a
   * click "New"
   * Add Path to your Cygwin-Installation e.g. "C:\cygwin\bin"
   * close dialogs
-  
+
 * now atom should be able to use ssh + rsync
-  * to proberly use ssh without password with autorized_keys, you need to have .ssh folder etc. 
+  * to proberly use ssh without password with autorized_keys, you need to have .ssh folder etc.
   * in cygwin you can open "cygwin terminal" and check by "ls .ssh"
   * maybe you need to create a pub-key with "ssh-keygen", look in internet for further instructions.
 
+
+### Install ###
+
+Under "cygwin terminal",
+* Clone this repository to your ~/.atom/packages/
+* Enter the directory
+* Run `apm install`
 
 ### Quick Start ###
 * Open a project folder to sync in [Atom](http://atom.io).
