@@ -40,8 +40,8 @@ atom-sync is an Atom package to sync files bidirectionally between remote host a
 ### Install ###
 
 Under "cygwin terminal",
-* Clone this repository to your ~/.atom/packages/
-* Enter the directory
+* Clone this repository to your `%USERPROFILE%/.atom/packages/`
+* Enter the `atom-sync` directory
 * Run `apm install`
 
 ### Quick Start ###
