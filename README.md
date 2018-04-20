@@ -1,3 +1,13 @@
+# Keep atom-sync up to date with ATOM
+
+Original Github repo of atom-sync was not maintained for years. It is no more working on current atom versions.
+
+The alternative pack remote-sync has 2 issues:
+* not using `$HOME/.ssh/config`
+* not using rsync
+
+It is simpler to fix atom-sync instead of adding those features to remote-sync, since that one was not very active either.
+
 # atom-sync package for cygwin
 
 atom-sync is an Atom package to sync files bidirectionally between remote host and local over ssh+rsync. Inspired by [Sublime SFTP](http://wbond.net/sublime_packages/sftp).
