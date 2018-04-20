@@ -53,9 +53,9 @@ module.exports = AtomSync =
       selection
     else
       if directory
-        path.dirname(atom.workspace.getActivePaneItem().buffer.file.path)
+          path.dirname(atom.workspace.getActiveTextEditor().getPath())
       else
-        atom.workspace.getActivePaneItem().buffer.file.path
+          atom.workspace.getActiveTextEditor().getPath()
 
   getProjectPath: (f) ->
     _.find atom.project.getPaths(), (x) -> (f.indexOf x) isnt -1
